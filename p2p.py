@@ -5,7 +5,7 @@ import requests
 # Your Telegram Bot API token
 TOKEN = "6953412767:AAGKDKQqLgbOmg3ndzqSPoFgysDcoPbG2Vk"
 # URL where your bot's code is hosted (GitHub Pages)
-URL = "YOUR_WEBHOOK_URL"
+URL = "https://github.com/sawisaiah/p2p.git"
 
 def start(update, context):
     update.message.reply_text("Welcome to the MMK Calculator Bot! Please enter the amount of USD you want to convert.")
