@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 # Define start command handler
 def start(update: Update, context: CallbackContext) -> None:
-    update.message.reply_text('Welcome to Currency Converter Bot!\n'
+    update.message.reply_text('Welcome to Currency Converter Bot! ကျွန်တော်တို့ဘော့မှကြိုဆိုပါတယ်\n'
                               'To convert USD to MMK, simply send the amount in USD.')
 
 # Define help command handler
